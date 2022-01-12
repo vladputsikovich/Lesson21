@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3F7532278C8DDD008D2991 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F7531278C8DDD008D2991 /* ProductCell.swift */; };
+		ED3F7534278C8E1C008D2991 /* AdvertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F7533278C8E1C008D2991 /* AdvertCell.swift */; };
 		ED48F2BE278C306C008BFE3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48F2BD278C306C008BFE3A /* AppDelegate.swift */; };
 		ED48F2C0278C306C008BFE3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48F2BF278C306C008BFE3A /* SceneDelegate.swift */; };
 		ED48F2C2278C306C008BFE3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48F2C1278C306C008BFE3A /* ViewController.swift */; };
 		ED48F2C5278C306C008BFE3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED48F2C3278C306C008BFE3A /* Main.storyboard */; };
 		ED48F2C7278C306D008BFE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED48F2C6278C306D008BFE3A /* Assets.xcassets */; };
 		ED48F2CA278C306D008BFE3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED48F2C8278C306D008BFE3A /* LaunchScreen.storyboard */; };
+		ED48F2D7278C3AFE008BFE3A /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48F2D6278C3AFE008BFE3A /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED3F7531278C8DDD008D2991 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		ED3F7533278C8E1C008D2991 /* AdvertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertCell.swift; sourceTree = "<group>"; };
 		ED48F2BA278C306C008BFE3A /* Lesson21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED48F2BD278C306C008BFE3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED48F2BF278C306C008BFE3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		ED48F2C6278C306D008BFE3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED48F2C9278C306D008BFE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED48F2CB278C306D008BFE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED48F2D6278C3AFE008BFE3A /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED3F7530278C8DC4008D2991 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F7531278C8DDD008D2991 /* ProductCell.swift */,
+				ED3F7533278C8E1C008D2991 /* AdvertCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		ED48F2B1278C306B008BFE3A = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +71,11 @@
 		ED48F2BC278C306C008BFE3A /* Lesson21 */ = {
 			isa = PBXGroup;
 			children = (
+				ED3F7530278C8DC4008D2991 /* Cells */,
 				ED48F2BD278C306C008BFE3A /* AppDelegate.swift */,
 				ED48F2BF278C306C008BFE3A /* SceneDelegate.swift */,
 				ED48F2C1278C306C008BFE3A /* ViewController.swift */,
+				ED48F2D6278C3AFE008BFE3A /* Menu.swift */,
 				ED48F2C3278C306C008BFE3A /* Main.storyboard */,
 				ED48F2C6278C306D008BFE3A /* Assets.xcassets */,
 				ED48F2C8278C306D008BFE3A /* LaunchScreen.storyboard */,
@@ -140,7 +157,10 @@
 			files = (
 				ED48F2C2278C306C008BFE3A /* ViewController.swift in Sources */,
 				ED48F2BE278C306C008BFE3A /* AppDelegate.swift in Sources */,
+				ED3F7532278C8DDD008D2991 /* ProductCell.swift in Sources */,
 				ED48F2C0278C306C008BFE3A /* SceneDelegate.swift in Sources */,
+				ED48F2D7278C3AFE008BFE3A /* Menu.swift in Sources */,
+				ED3F7534278C8E1C008D2991 /* AdvertCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
