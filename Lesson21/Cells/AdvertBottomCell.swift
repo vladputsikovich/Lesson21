@@ -1,8 +1,8 @@
 //
-//  AdvertCell.swift
+//  AdvertBottomCell.swift
 //  Lesson21
 //
-//  Created by Владислав Пуцыкович on 10.01.22.
+//  Created by Владислав Пуцыкович on 14.01.22.
 //
 
 import UIKit
@@ -11,8 +11,7 @@ fileprivate struct Constants {
     static let radiusImage: CGFloat = 10
 }
 
-class AdvertCell: UICollectionViewCell {
-    
+class AdvertBottomCell: UICollectionViewCell {
     var advert: Advert?
     
     let imageView = UIImageView()

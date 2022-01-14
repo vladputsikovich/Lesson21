@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED13E8892791F51F0059D4AD /* AdvertBottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13E8882791F51F0059D4AD /* AdvertBottomCell.swift */; };
 		ED3F7532278C8DDD008D2991 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F7531278C8DDD008D2991 /* ProductCell.swift */; };
 		ED3F7534278C8E1C008D2991 /* AdvertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F7533278C8E1C008D2991 /* AdvertCell.swift */; };
 		ED48F2BE278C306C008BFE3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48F2BD278C306C008BFE3A /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED13E8882791F51F0059D4AD /* AdvertBottomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertBottomCell.swift; sourceTree = "<group>"; };
 		ED3F7531278C8DDD008D2991 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		ED3F7533278C8E1C008D2991 /* AdvertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertCell.swift; sourceTree = "<group>"; };
 		ED48F2BA278C306C008BFE3A /* Lesson21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson21.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3F7531278C8DDD008D2991 /* ProductCell.swift */,
+				ED13E8882791F51F0059D4AD /* AdvertBottomCell.swift */,
 				ED3F7533278C8E1C008D2991 /* AdvertCell.swift */,
 			);
 			path = Cells;
@@ -157,6 +160,7 @@
 			files = (
 				ED48F2C2278C306C008BFE3A /* ViewController.swift in Sources */,
 				ED48F2BE278C306C008BFE3A /* AppDelegate.swift in Sources */,
+				ED13E8892791F51F0059D4AD /* AdvertBottomCell.swift in Sources */,
 				ED3F7532278C8DDD008D2991 /* ProductCell.swift in Sources */,
 				ED48F2C0278C306C008BFE3A /* SceneDelegate.swift in Sources */,
 				ED48F2D7278C3AFE008BFE3A /* Menu.swift in Sources */,
