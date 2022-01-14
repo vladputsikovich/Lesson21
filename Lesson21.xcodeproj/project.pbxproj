@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED13E8892791F51F0059D4AD /* AdvertBottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13E8882791F51F0059D4AD /* AdvertBottomCell.swift */; };
+		ED37C7AC27922DB800A5DE95 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ED37C7AB27922DB800A5DE95 /* .gitignore */; };
 		ED3F7532278C8DDD008D2991 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F7531278C8DDD008D2991 /* ProductCell.swift */; };
 		ED3F7534278C8E1C008D2991 /* AdvertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F7533278C8E1C008D2991 /* AdvertCell.swift */; };
 		ED48F2BE278C306C008BFE3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48F2BD278C306C008BFE3A /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		ED13E8882791F51F0059D4AD /* AdvertBottomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertBottomCell.swift; sourceTree = "<group>"; };
+		ED37C7AB27922DB800A5DE95 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		ED3F7531278C8DDD008D2991 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		ED3F7533278C8E1C008D2991 /* AdvertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertCell.swift; sourceTree = "<group>"; };
 		ED48F2BA278C306C008BFE3A /* Lesson21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson21.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 				ED48F2BD278C306C008BFE3A /* AppDelegate.swift */,
 				ED48F2BF278C306C008BFE3A /* SceneDelegate.swift */,
 				ED48F2C1278C306C008BFE3A /* ViewController.swift */,
+				ED37C7AB27922DB800A5DE95 /* .gitignore */,
 				ED48F2D6278C3AFE008BFE3A /* Menu.swift */,
 				ED48F2C3278C306C008BFE3A /* Main.storyboard */,
 				ED48F2C6278C306D008BFE3A /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED37C7AC27922DB800A5DE95 /* .gitignore in Resources */,
 				ED48F2CA278C306D008BFE3A /* LaunchScreen.storyboard in Resources */,
 				ED48F2C7278C306D008BFE3A /* Assets.xcassets in Resources */,
 				ED48F2C5278C306C008BFE3A /* Main.storyboard in Resources */,
