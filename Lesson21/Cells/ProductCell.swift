@@ -47,6 +47,7 @@ class ProductCell: UICollectionViewCell {
         )
         imageView.layer.cornerRadius = Constants.radiusImage
         imageView.clipsToBounds = true
+        imageView.contentMode = .scaleAspectFit
         addSubview(imageView)
     }
     

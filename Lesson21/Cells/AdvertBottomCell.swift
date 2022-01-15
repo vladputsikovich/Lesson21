@@ -34,5 +34,6 @@ class AdvertBottomCell: UICollectionViewCell {
     
     func configOf(advert: Advert) {
         imageView.image = advert.image
+        imageView.contentMode = .scaleToFill
     }
 }

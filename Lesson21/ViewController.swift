@@ -42,6 +42,18 @@ class ViewController: UIViewController {
         createProductCollection()
         createBottomAdvertCollection()
         print(UIDevice.current.name)
+        NotificationCenter.default.addObserver(
+                    self,
+                    selector: #selector(keyboardWillShow(_:)),
+                    name: UIResponder.keyboardWillShowNotification,
+                    object: nil
+                )
+                NotificationCenter.default.addObserver(
+                    self,
+                    selector: #selector(keyboardWillHide(_:)),
+                    name: UIResponder.keyboardWillHideNotification,
+                    object: nil
+                )
     }
     
     func createSearchBar() {
@@ -88,9 +100,9 @@ class ViewController: UIViewController {
         pageContol = UIPageControl(
             frame: CGRect(
                 x: .zero,
-                y: advertCollection.frame.maxY - 40,
+                y: advertCollection.frame.maxY - 10,
                 width: view.frame.width,
-                height: 30
+                height: 20
             )
         )
         pageContol.numberOfPages = menu.advertsTop.count
@@ -106,7 +118,7 @@ class ViewController: UIViewController {
         productCollection = UICollectionView(
             frame: CGRect(
                 x: 10,
-                y: advertCollection.frame.maxY,
+                y: pageContol.frame.maxY,
                 width: view.bounds.width - 20,
                 height: view.bounds.height / 1.8
             ),
@@ -200,6 +212,25 @@ extension ViewController: UICollectionViewDataSource {
             pageContol.currentPage = indexPath[1]
         }
     }
+    
+    @objc func keyboardWillShow(_ notification: Notification) {
+            if ((notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue) != nil {
+                if round(productCollection.frame.origin.y) == round(pageContol.frame.maxY) {
+                    productCollection.frame.origin.y = searchBar.frame.maxY + 10
+                    advertCollection.isHidden = true
+                }
+            }
+
+        }
+
+        @objc func keyboardWillHide(_ notification: Notification) {
+            if ((notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue) != nil {
+                if round(productCollection.frame.origin.y) != round(pageContol.frame.maxY){
+                    productCollection.frame.origin.y = pageContol.frame.maxY
+                    advertCollection.isHidden = false
+                }
+            }
+        }
 }
 
 
@@ -250,3 +281,5 @@ extension ViewController: UISearchBarDelegate {
         productCollection.reloadData()
     }
 }
+
+
